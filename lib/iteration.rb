@@ -21,7 +21,7 @@ def find_greater_pair(src)
    i += 1
  end
 
- larger
+return larger
 
 end
 
