@@ -13,15 +13,15 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-  larger_pair = []
+  result = []
 
-    i = 0
-    while i < src.length do
-      larger_pai <<  (src[i][0] > src[i][1] ? src[i][0] : src[i][1])
-      i += 1
-    end
+ i = 0
+ while i < src.length do
+   result <<  (src[i][0] > src[i][1] ? src[i][0] : src[i][1])
+   i += 1
+ end
 
-    return larger_pair
+ result
 
 end
 
